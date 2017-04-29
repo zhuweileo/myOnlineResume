@@ -8,6 +8,9 @@
       </p>
       <a href="#WORK" class="button fade-in three">VIEW MY WORK</a>
     </div>
+    <div class="scroll-down">
+      <i class="iconfont icon-xiangxia animated infinite bounce"></i>
+    </div>
   </div>
 </template>
 <script>
@@ -51,6 +54,20 @@ $text-active-c:#14b97d;
     padding-top:20px;
     padding-bottom:40px;
   }
-
+  .scroll-down{
+    padding-top:40px;
+    /*.bounce{*/
+      /*animation-name: bounce;*/
+      /*transform-origin:center bottom;*/
+    /*}*/
+    .icon-xiangxia{
+      display:inline-block;
+      cursor: pointer;
+    }
+    .icon-xiangxia:before{
+      content: "\e734";
+      font-size:45px;
+    }
+  }
 }
 </style>
