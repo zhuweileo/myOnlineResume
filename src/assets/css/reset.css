@@ -1,5 +1,10 @@
-a{
-  text-decoration:none;
-}
+a{text-decoration:none;  }
 *{box-sizing:border-box}
 *:after,*:before{box-sizing:border-box}
+html,body{margin:0;padding:0;}
+*{margin:0;padding:0}
+body ::selection{
+  color:#fff;
+  background:#14b97d;
+  text-shadow:none;
+}

@@ -32,7 +32,7 @@ $text-c:#7b7b7b;
 $text-active-c:#14b97d;
 #TopBar{
   .close{
-    margin-top:-49px;
+    margin-top:-51px;
     .nav-bar{
       &:hover{
         .toggle-bar:before{background:$text-active-c}
@@ -74,7 +74,7 @@ $text-active-c:#14b97d;
   top:0;
   nav{
     background: #000;
-    border-bottom:1px solid #333;
+    border-bottom:1px solid #555;
     .holder{
       padding:15px 0;
       a{
@@ -93,7 +93,7 @@ $text-active-c:#14b97d;
     width:50px;
     height:40px;
     margin:0 auto;
-    border:1px solid #333;
+    border:1px solid #555;
     border-top-color: #000;
     margin-top:-1px;
     border-radius:0 0 3px 3px;
