@@ -1,7 +1,7 @@
 <template>
   <div id="Home">
     <div class="content">
-      <h1>I'm <strong>ZHUWEI</strong></h1>
+      <h1>I’m <strong>ZHUWEI</strong></h1>
       <p>Web UI/UX Designer and Front End Developer Based in Dubai, UAE.<br>
         Take a look at some of my works, and if you like them, feel free to contact me. <br>
         Let’s create something WOW!
@@ -25,10 +25,10 @@ $text-active-c:#14b97d;
   color:white;
   font-weight:100;
   h1{
+    font-family:'Raleway',sans-serif;
     font-size:12vw;
-    font-weight:inherit;
     line-height:1em;
-    strong{color:$text-active-c}
+    strong{color:$text-active-c;font-weight:800;}
   }
   p{
     font-size:2vw;
