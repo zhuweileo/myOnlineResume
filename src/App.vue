@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import "./assets/css/animate.css"
 import "./assets/css/reset.css"
 import TopBar from "./components/TopBar.vue"
 import Home from "./components/Home.vue"

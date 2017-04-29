@@ -1,12 +1,12 @@
 <template>
   <div id="Home">
     <div class="content">
-      <h1>I’m <strong>ZHUWEI</strong></h1>
-      <p>Web UI/UX Designer and Front End Developer Based in Dubai, UAE.<br>
+      <h1 class="fade-in one">I’m <strong>ZHUWEI</strong></h1>
+      <p class="fade-in two">Web UI/UX Designer and Front End Developer Based in Dubai, UAE.<br>
         Take a look at some of my works, and if you like them, feel free to contact me. <br>
         Let’s create something WOW!
       </p>
-      <a href="#WORK" class="button">VIEW MY WORK</a>
+      <a href="#WORK" class="button fade-in three">VIEW MY WORK</a>
     </div>
   </div>
 </template>
@@ -24,6 +24,21 @@ $text-active-c:#14b97d;
   padding:150px 0 0 0;
   color:white;
   font-weight:100;
+  .fade-in{
+    animation-name:fadeInUp;
+    animation-fill-mode:both;
+    animation-duration:1s;
+    opacity:0;
+  }
+  .one{
+    animation-delay:1s;
+  }
+  .two{
+    animation-delay:1.2s;
+  }
+  .three{
+    animation-delay:1.4s;
+  }
   h1{
     font-family:'Raleway',sans-serif;
     font-size:12vw;
