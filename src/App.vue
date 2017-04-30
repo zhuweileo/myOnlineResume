@@ -4,6 +4,7 @@
     <Home/>
     <About/>
     <work></work>
+    <ProDiscribe></ProDiscribe>
   </div>
 </template>
 
@@ -14,9 +15,10 @@ import TopBar from "./components/TopBar.vue"
 import Home from "./components/Home.vue"
 import About from "./components/About.vue"
 import Work from "./components/Work.vue"
+import ProDiscribe from "./components/ProDiscribe.vue"
 export default {
   name: 'app',
-  components:{TopBar,Home,About,Work}
+  components:{TopBar,Home,About,Work,ProDiscribe}
 }
 </script>
 
