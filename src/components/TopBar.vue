@@ -68,6 +68,7 @@ $text-active-c:#14b97d;
   >div{
     transition:all 0.5s ease-in-out;
   }
+  z-index:100;
   position:fixed;
   left:0;
   right:0;

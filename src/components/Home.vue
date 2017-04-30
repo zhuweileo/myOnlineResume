@@ -21,7 +21,7 @@ export default {
 <style lang="scss">
 $text-active-c:#14b97d;
 #Home{
-  height:100vh;
+  height:115vh;
   background: url(../assets/img/me-overlay.png) repeat 0 0 fixed,url(../assets/img/bg-black2.jpg) no-repeat center fixed;
   background-size:auto,cover;
   padding:150px 0 0 0;

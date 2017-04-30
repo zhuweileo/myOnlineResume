@@ -2,6 +2,7 @@
   <div id="app">
     <TopBar/>
     <Home/>
+    <About/>
   </div>
 </template>
 
@@ -10,9 +11,10 @@ import "./assets/css/animate.css"
 import "./assets/css/reset.css"
 import TopBar from "./components/TopBar.vue"
 import Home from "./components/Home.vue"
+import About from "./components/About.vue"
 export default {
   name: 'app',
-  components:{TopBar,Home}
+  components:{TopBar,Home,About}
 }
 </script>
 
@@ -23,19 +25,19 @@ $text-active-c:#14b97d;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   height:100%;
 }
 .button{
   color:white;
   font-size:18px;
   border:1px solid $text-active-c;
-  padding:15px 25px ;
+  padding:0 25px ;
   border-radius:3px;
   display:inline-block;
   position:relative;
   z-index:1;
   overflow: hidden;
+  line-height:47px;
   &:before{
     content:"";
     background:$text-active-c;
