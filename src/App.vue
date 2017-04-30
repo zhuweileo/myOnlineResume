@@ -3,6 +3,7 @@
     <TopBar/>
     <Home/>
     <About/>
+    <work></work>
   </div>
 </template>
 
@@ -12,9 +13,10 @@ import "./assets/css/reset.css"
 import TopBar from "./components/TopBar.vue"
 import Home from "./components/Home.vue"
 import About from "./components/About.vue"
+import Work from "./components/Work.vue"
 export default {
   name: 'app',
-  components:{TopBar,Home,About}
+  components:{TopBar,Home,About,Work}
 }
 </script>
 

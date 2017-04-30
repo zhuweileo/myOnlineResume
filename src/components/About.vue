@@ -69,7 +69,7 @@ $text-active-c:#14b97d;
   &:before{
     content:"";
     display:block;
-    height:15vh;
+    height:12vh;
     background: #fff;
     transform:skewY(-3deg);
     transform-origin:0 0;
@@ -77,6 +77,7 @@ $text-active-c:#14b97d;
   h2{
     font-size:50px;
     font-weight:700;
+    text-transform: uppercase;
     &:after{
       content:"";
       display:block;
@@ -126,7 +127,7 @@ $text-active-c:#14b97d;
     }
     .tab-content{
       width:60%;
-      height:80vh;
+      height:100vh;
       margin:0 auto;
       .profile{
         p{
