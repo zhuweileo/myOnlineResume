@@ -3,12 +3,11 @@
   <div :class="{close:close}">
     <nav>
       <div class="holder">
-        <a href="#HOME">HOME</a>
-        <a href="#ABOUT">ABOUT</a>
-        <a href="#WORKS">WORKS</a>
-        <a href="#ARTICALS">ARTICALS</a>
-        <a href="#GET IN TOUCH">GET IN TOUCH</a>
-        <a href="#SELF-INTRO">SELF-INTRO</a>
+        <a href="#Home">HOME</a>
+        <a href="#About">ABOUT</a>
+        <a href="#Work">WORKS</a>
+        <a href="#ProDiscribe">ProDiscribe</a>
+        <a href="#Contact">GET IN TOUCH</a>
       </div>
     </nav>
     <div class="nav-bar" @click="close=!close">
