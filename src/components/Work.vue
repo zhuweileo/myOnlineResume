@@ -3,8 +3,8 @@
   <h2>Works</h2>
   <div class="holder">
     <div class="pro">
-      <a href="">
-        <div class="bg"></div>
+      <a href="https://zhuweileo.github.io/resume/dist" target="_blank">
+        <div class="bg resumer"></div>
         <div class="discribe">
           <h3>Resumer</h3>
           <p>在线简历生成器</p>
@@ -12,8 +12,8 @@
       </a>
     </div>
     <div class="pro">
-      <a href="">
-        <div class="bg"></div>
+      <a href="http://zhuweileo.top" target="_blank">
+        <div class="bg tips"></div>
         <div class="discribe">
           <h3>Tips</h3>
           <p>便利贴应用</p>
@@ -21,8 +21,8 @@
       </a>
     </div>
     <div class="pro">
-      <a href="">
-        <div class="bg"></div>
+      <a href="http://zhuweileo.coding.me/music/" target="_blank">
+        <div class="bg music"></div>
         <div class="discribe">
           <h3>Music</h3>
           <p>在线音乐播放器</p>
@@ -68,8 +68,13 @@ $text-active-c:#14b97d;
     justify-content: center;
     .pro{
       padding:50px 0;
+      &:first-child a{background-image:url(../assets/img/resumer.jpg)}
+      &:nth-child(2) a{background-image:url(../assets/img/tips.jpg)}
+      &:nth-child(3) a{background-image:url(../assets/img/music.jpg)}
       a{
-        background: #fff;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:cover;
         display:block;
         width:30vw;
         height:35vh;
