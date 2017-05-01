@@ -7,45 +7,49 @@
         <a v-for="item in items" :class="{active:selected===item}" href="" @click.prevent="selected=item">{{item}}</a>
       </div>
       <div class="tab-content">
-        <div v-show="selected === 'profile'" class="profile">
-          <p>I'm Rakesh Dubai based UI/UX/Web Designer and Front-End Developer.</p>
-          <p>I am able to work effectively in a team or on my Own. I have demonstrated an ability to lead small Teams and mentor other workers. I pride myself on being able to use my knowledge and initiative to deliver high quality results to tight deadlines. I enjoy a challenge and look for the opportunity to expand and develop my skill set.</p>
-          <p>Some people call what I do User Experience Design, some call it Web design, some think I am a Front-End Developer, others see me as a UI Designer. I see what I do as a combination of all these things and ultimately don’t think it really matters which label you like to use.</p>
-          <p>What does matter is the output of my work, which is always focused at the point where user, business and technical requirements meet and tends to become a perfect product.</p>
-          <div class="btns">
-            <a class="button" href="/src/assets/pdf/resume.pdf" target="_blank">Download PDF</a><a class="button" href="">Hire me</a>
+        <transition name="fade">
+          <div v-show="selected === 'profile'" class="profile">
+            <p>I'm Rakesh Dubai based UI/UX/Web Designer and Front-End Developer.</p>
+            <p>I am able to work effectively in a team or on my Own. I have demonstrated an ability to lead small Teams and mentor other workers. I pride myself on being able to use my knowledge and initiative to deliver high quality results to tight deadlines. I enjoy a challenge and look for the opportunity to expand and develop my skill set.</p>
+            <p>Some people call what I do User Experience Design, some call it Web design, some think I am a Front-End Developer, others see me as a UI Designer. I see what I do as a combination of all these things and ultimately don’t think it really matters which label you like to use.</p>
+            <p>What does matter is the output of my work, which is always focused at the point where user, business and technical requirements meet and tends to become a perfect product.</p>
+            <div class="btns">
+              <a class="button" href="/src/assets/pdf/resume.pdf" target="_blank">Download PDF</a><a class="button" href="mailto:zhuwei_leo@163.com">Hire me</a>
+            </div>
           </div>
-        </div>
-        <div v-show="selected ==='skills'" class="skills">
-          <div class="html">
-            <!--<span>html</span>-->
-            <div>html</div>
+        </transition>
+        <transition name="fade">
+          <div v-show="selected ==='skills'" class="skills">
+            <div class="html">
+              <!--<span>html</span>-->
+              <div>html</div>
+            </div>
+            <div class="css">
+              <!--<span>css</span>-->
+              <div>css</div>
+            </div>
+            <div class="javascript">
+              <!--<span>javascript</span>-->
+              <div>javascript</div>
+            </div>
+            <div class="jquery">
+              <!--<span>jquery</span>-->
+              <div>jquery</div>
+            </div>
+            <div class="vue">
+              <!--<span>vue</span>-->
+              <div>vue</div>
+            </div>
+            <div class="webpack">
+              <!--<span>webpack</span>-->
+              <div>webpack</div>
+            </div>
+            <div class="photoshop">
+              <!--<span>photoshop</span>-->
+              <div>photoshop</div>
+            </div>
           </div>
-          <div class="css">
-            <!--<span>css</span>-->
-            <div>css</div>
-          </div>
-          <div class="javascript">
-            <!--<span>javascript</span>-->
-            <div>javascript</div>
-          </div>
-          <div class="jquery">
-            <!--<span>jquery</span>-->
-            <div>jquery</div>
-          </div>
-          <div class="vue">
-            <!--<span>vue</span>-->
-            <div>vue</div>
-          </div>
-          <div class="webpack">
-            <!--<span>webpack</span>-->
-            <div>webpack</div>
-          </div>
-          <div class="photoshop">
-            <!--<span>photoshop</span>-->
-            <div>photoshop</div>
-          </div>
-        </div>
+        </transition>
       </div>
     </div>
   </div>
@@ -65,6 +69,12 @@ export default {
 </script>
 <style lang="scss">
 $text-active-c:#14b97d;
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 1.5s
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
 #About{
   &:before{
     content:"";

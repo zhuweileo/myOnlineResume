@@ -9,17 +9,25 @@
     </div>
     <div class="logos">
       <div class="wrapper">
-        <i><a href="https://github.com/zhuweileo" target="_blank" class="iconfont icon-github"></a></i><i><a href="" class="iconfont icon-qq"></a></i><i>
-        <a href="" class="iconfont icon-weichat"></a></i><i><a href="http://www.jianshu.com/u/8ab9cd297212" target="_blank" class="iconfont icon-jian"></a></i>
+        <i><a href="https://github.com/zhuweileo" target="_blank" class="iconfont icon-github"></a></i>
+        <i><a href="http://wpa.qq.com/msgrd?v=3&uin=576998768&site=qq&menu=yes" target="_blank" class="iconfont icon-qq"></a></i>
+        <i><a href="#" class="iconfont icon-weichat" @click.prevent="addme=true"></a></i>
+        <i><a href="http://www.jianshu.com/u/8ab9cd297212" target="_blank" class="iconfont icon-jian"></a></i>
       </div>
     </div>
     <div class="btn"><a href="mailto:zhuwei_leo@163.com" class="button">get in touch</a></div>
     <div class="copyright">© Copyright 2017 朱维 personal portfolio</div>
+    <div class="weixin" @click="addme=false" v-show="addme"><img @click.stop="" src="../assets/img/2Dcode.png" alt="扫一扫添加我"></div>
   </section>
 </template>
 <script>
 export default {
-    name:"Contact"
+    name:"Contact",
+    data(){
+        return {
+            addme:false
+        }
+    }
 }
 </script>
 <style lang="scss">
@@ -111,6 +119,18 @@ $text-active-c:#14b97d;
   }
   .copyright{
     padding-bottom:100px;
+  }
+  .weixin{
+    position:fixed;
+    z-index:2;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(0,0,0,.2);
+    display:flex;
+    justify-content: center;
+    align-items:center;
   }
 }
 </style>

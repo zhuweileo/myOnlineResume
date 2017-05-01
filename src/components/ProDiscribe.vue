@@ -1,10 +1,14 @@
 <template>
 <section id="ProDiscribe">
-  <div class="holder" @mouseover="stop" @mouseout="run">
-    <div v-for="(value,pro) in pros" class="discribe" v-show="show===pro">
-      <h2>{{pro}}</h2>
-      <p>{{value}}</p>
-    </div>
+  <div class="holder" >
+      <div v-for="(value,pro) in pros" class="discribe" v-show="show===pro">
+        <transition name="fade">
+          <div v-show="show===pro">
+            <h2>{{pro}}</h2>
+            <p @mouseover="stop" @mouseout="run">{{value}}</p>
+          </div>
+        </transition>
+      </div>
     <ul class="tab">
       <li v-for="(value,pro) in pros" :class="{active:show===pro} " @click="show=pro"></li>
     </ul>
@@ -23,7 +27,7 @@ export default {
         }
     },
     created(){
-//        this.run();
+        this.run();
     },
     methods:{
         stop(){
@@ -37,13 +41,14 @@ export default {
             this.show = props[index];
             index+=1;
             if(index>=3) index = 0;
-          },1000)
+          },3000)
         }
     }
 }
 </script>
 <style lang="scss">
 $text-active-c:#14b97d;
+
 #ProDiscribe{
   &:before{
     content:"";
