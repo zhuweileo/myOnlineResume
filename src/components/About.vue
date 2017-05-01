@@ -16,7 +16,7 @@
             <p>我是一位性格幽默，做事认真的人。喜欢学习心得技术，良好的沟通理解能力，有一定独立解决问题的能力，而且有时间观念，能够在规定的时间内完成任务。</p>
             <p>我希望能得到一份<strong>初级前端工程师</strong>的工作，如果您觉得我是你要找的那个人请联系我！</p>
             <div class="btns">
-              <a class="button" href="/src/assets/pdf/resume.pdf" target="_blank">Download PDF</a><a class="button" href="mailto:zhuwei_leo@163.com">Hire me</a>
+              <a class="button" href="/myOnlineResume/src/assets/pdf/resume.pdf" target="_blank">Download PDF</a><a class="button" href="mailto:zhuwei_leo@163.com">Hire me</a>
             </div>
           </div>
         </transition>
