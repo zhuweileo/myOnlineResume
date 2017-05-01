@@ -39,6 +39,7 @@
 $text-active-c:#14b97d;
 #Work{
   background: #000;
+  padding-bottom:20vh;
   &:before{
     content:"";
     display:block;
