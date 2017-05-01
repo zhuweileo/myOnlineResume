@@ -1,17 +1,17 @@
 <template>
-  <div id="Home">
+  <section id="Home">
     <div class="content">
       <h1 class="fade-in one">I’m <strong>ZHUWEI</strong></h1>
-      <p class="fade-in two">Web UI/UX Designer and Front End Developer Based in Dubai, UAE.<br>
+      <p class="fade-in two">Front End Developer.<br>
         Take a look at some of my works, and if you like them, feel free to contact me. <br>
         Let’s create something WOW!
       </p>
-      <a href="#WORK" class="button fade-in three">VIEW MY WORK</a>
+      <a href="#Work" class="button fade-in three">VIEW MY WORK</a>
     </div>
     <div class="scroll-down">
       <i class="iconfont icon-xiangxia animated infinite bounce"></i>
     </div>
-  </div>
+  </section>
 </template>
 <script>
 export default {
