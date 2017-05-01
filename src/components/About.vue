@@ -13,7 +13,7 @@
           <p>Some people call what I do User Experience Design, some call it Web design, some think I am a Front-End Developer, others see me as a UI Designer. I see what I do as a combination of all these things and ultimately don’t think it really matters which label you like to use.</p>
           <p>What does matter is the output of my work, which is always focused at the point where user, business and technical requirements meet and tends to become a perfect product.</p>
           <div class="btns">
-            <a class="button" href="">Download PDF</a><a class="button" href="">Hire me</a>
+            <a class="button" href="/src/assets/pdf/resume.pdf" target="_blank">Download PDF</a><a class="button" href="">Hire me</a>
           </div>
         </div>
         <div v-show="selected ==='skills'" class="skills">

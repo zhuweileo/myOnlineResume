@@ -54,7 +54,7 @@ $text-active-c:#14b97d;
     transform-origin:0 0;
   }
   .holder{
-
+    height:70vh;
     .discribe{
       width:60vw;
       height:45vh;
