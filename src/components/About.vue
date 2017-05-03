@@ -10,13 +10,13 @@
         <transition name="fade">
           <div v-show="selected === 'profile'" class="profile">
             <p>我是<strong>朱维</strong>，一位有有灵魂的前端工程师！热爱前端，热爱编程，热爱调试BUG!</p>
-            <p>选择前端的原因：最初是因为我喜欢排版，喜欢把杂乱的东西变得井井有条。然后发现前端并不都是排版啊！哈哈，但是依然热爱！</p>
-            <p>有半年的前端开发经验，熟悉html/css/javascript，熟悉W3C标准，熟练使用Jquery等常用库，有一定的<strong>Vuejs</strong>使用经验，并且熟练使用webpack等前端工具；
-了解ajax/http/BOM/DOM等前端相关知识；对js<strong>模块化</strong>、<strong>面向对象编程</strong>有一定理解；对<strong>Html+css布局</strong>工作较为敏感。</p>
-            <p>我是一位性格幽默，做事认真的人。喜欢学习新技术，有极客精神，良好的沟通理解能力，有一定独立解决问题的能力，而且有时间观念，能够在规定的时间内完成任务。</p>
-            <p>我希望能得到一份<strong>初级前端工程师</strong>的工作，如果您觉得我是你要找的那个人请联系我！</p>
+            <p>有一年的前端开发经验，熟悉html/css/javascript，熟悉W3C标准，熟练使用Jquery等常用库，有一定的<strong>Vuejs</strong>使用经验，并且熟练使用webpack等前端工具；
+了解ajax/http/BOM/DOM等前端相关知识；对js<strong>模块化</strong>、<strong>面向对象编程</strong>有一定理解；对各种前端新技术都充满了学习热情；具备基础的Photoshop使用能力，有一定的审美能力，喜欢思考如何使产品更加符合用户体验。</p>
+            <p>我是一位性格幽默，做事认真的人。注重前端基本功的同时，对新兴技术有较大的热情，喜欢学习新技术，不单纯将技术作为工作需求，而是个人爱好；拥有认真负责的工作态度，
+积极解决工作中遇到的各种困难；能够独立的解决问题，自我学习能力较强，能够在没有带领的情况下自我进步；较好的问题分析解决能力。</p>
+            <p>我希望能得到一份<strong>前端工程师</strong>的工作。点击下方按钮可以下载我的个人PDF简历。</p>
             <div class="btns">
-              <a class="button" href="/myOnlineResume/src/assets/pdf/resume.pdf" target="_blank">Download PDF</a><a class="button" href="mailto:zhuwei_leo@163.com">Hire me</a>
+              <a class="button" href="/myOnlineResume/src/assets/pdf/朱维简历.pdf" target="_blank">Download PDF</a><a class="button" href="mailto:zhuwei_leo@163.com">Hire me</a>
             </div>
           </div>
         </transition>
