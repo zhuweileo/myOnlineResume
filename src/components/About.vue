@@ -1,6 +1,6 @@
 <template>
 <section id="About">
-  <div class="holder">
+  <div class="holder scrollflow -pop -opacity">
     <h2>About<br></h2>
     <div class="tabs">
       <div class="tab">
